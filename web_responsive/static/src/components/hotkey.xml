@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<templates id="template" xml:space="preserve">
+    <t t-inherit="web.UserMenu.shortcutsTable" t-inherit-mode="extension" owl="1">
+        <xpath expr="//div[hasclass('row')]" position="attributes">
+            <attribute name="class" separator=" " add="justify-content-center"/>
+        </xpath>
+        <xpath expr="//div[hasclass('row')]/div" position="attributes">
+            <attribute name="class"></attribute>
+        </xpath>
+        <xpath expr="//tbody/tr[1]//span" position="after">
+        + <span class="o_key">Shift</span>
+        </xpath>
+        <xpath expr="//tbody/tr[2]//span" position="after">
+        + <span class="o_key">Shift</span>
+        </xpath>
+        <xpath expr="//tbody/tr[3]//span" position="after">
+        + <span class="o_key">Shift</span>
+        </xpath>
+        <xpath expr="//tbody/tr[4]//span" position="after">
+        + <span class="o_key">Shift</span>
+        </xpath>
+        <xpath expr="//tbody/tr[5]//span" position="after">
+        + <span class="o_key">Shift</span>
+        </xpath>
+        <xpath expr="//tbody/tr[6]//span" position="after">
+        + <span class="o_key">Shift</span>
+        </xpath>
+        <xpath expr="//tbody/tr[7]//span" position="after">
+        + <span class="o_key">Shift</span>
+        </xpath>
+        <xpath expr="//tbody/tr[8]//span" position="after">
+        + <span class="o_key">Shift</span>
+        </xpath>
+        <xpath expr="//span[text()='a']" position="replace">
+            <span class="o_key">e</span>
+        </xpath>
+        <xpath expr="//span[text()='a']" position="replace">
+            <span class="o_key">e</span>
+        </xpath>
+        <xpath expr="//span[text()='j']" position="replace">
+            <span class="o_key">d</span>
+        </xpath>
+        <xpath expr="//span[text()='j']" position="replace">
+            <span class="o_key">d</span>
+        </xpath>
+    </t>
+</templates>

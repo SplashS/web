@@ -19,8 +19,8 @@
             >state.maximized ? 'o_AttachmentViewer_maximized' : ''</attribute>
         </xpath>
         <xpath
-            expr="//div[hasclass('o_AttachmentViewer_header')]/div[hasclass('o-autogrow')]"
-            position="after"
+            expr="//div[hasclass('o_AttachmentViewer_headerItemButtonClose')]"
+            position="before"
         >
             <div
                 t-if="!state.maximized"
